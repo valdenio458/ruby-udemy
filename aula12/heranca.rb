@@ -1,10 +1,10 @@
-class Automvel
+class Automovel
   def acelera
     puts "Acelerando..."
   end   
 end 
 
-class Carro < Automvel
+class Carro < Automovel
   def acelera 
     puts "Verificando equipamentos..."
     super
